@@ -11,7 +11,7 @@ All notable changes to this project will be documented here.
 
 ## [0.18.0] - 2019-10-8
 ### Changed
-- iOS - RN 0.6.0 and higher: Smartlook now integratind via Cocoapods https://smartlook.github.io/docs/sdk/react-native/#ios
+- iOS - RN 0.6.0 and higher: Smartlook now integratind via Cocoapods. Latest version of native Smartlook SKD is always used. https://smartlook.github.io/docs/sdk/react-native/#ios
 - iOS - RN before 0.6.0: no longer directly supported. `Smartlook.framework` removed from the npm package, must be downloaded and added to the Xcode project manually. https://smartlook.github.io/docs/sdk/react-native/#ios
 
 
