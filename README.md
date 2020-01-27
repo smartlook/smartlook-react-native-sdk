@@ -9,9 +9,15 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [0.23.0] - 2020-01-27
+### Changed
+- iOS: podspec moved to root folder of the bridge, making bridge installation easier
+- iOS: removed all references to `UIWebView` (https://developer.apple.com/news/?id=12232019b)
+
+
 ## [0.18.0] - 2019-10-8
 ### Changed
-- iOS - RN 0.6.0 and higher: Smartlook now integratind via Cocoapods. Latest version of native Smartlook SKD is always used. https://smartlook.github.io/docs/sdk/react-native/#ios
+- iOS - RN 0.6.0 and higher: Smartlook now integratind via Cocoapods. Latest version of native Smartlook SDK is always used. https://smartlook.github.io/docs/sdk/react-native/#ios
 - iOS - RN before 0.6.0: no longer directly supported. `Smartlook.framework` removed from the npm package, must be downloaded and added to the Xcode project manually. https://smartlook.github.io/docs/sdk/react-native/#ios
 
 
