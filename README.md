@@ -9,6 +9,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [0.26.0] - 2020-03-11
+### Changed
+- updated plugin API to be in line with other Smartlook platforms
+
 ## [0.23.0] - 2020-01-27
 ### Changed
 - iOS: podspec moved to root folder of the bridge, making bridge installation easier
